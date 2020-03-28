@@ -3,6 +3,6 @@ Scraps data from website, regarding Covid19 status
 
 Refer requirements.txt for requirements
 
-![Screenpins](link-to-image)
+!(https://github.com/aletisunil/Covid19_liveTracker/blob/master/Screenshot%20(95).png?raw=true)
 
 
