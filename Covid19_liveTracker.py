@@ -15,15 +15,21 @@ def covid19(country):
     
     for i in range(7):
         if i == 0:
-            print("Country name: "+str(data[i+index].text))
+            print("\nCountry name: "+str(data[i+index].text))
         elif i == 1:
             print("Total cases: "+str(data[i+index].text))
         elif i == 2:
-            print("New cases: "+str(data[i+index].text))
+            if data[i+index].text == '':
+                print("New cases: 0")
+            else:
+                print("New cases: "+str(data[i+index].text))
         elif i == 3:
             print("Total deaths: "+str(data[i+index].text))
         elif i == 4:
-            print("New deaths: "+str(data[i+index].text))
+            if data[i+index].text == '':
+                print("New deaths: 0")
+            else:
+                print("New deaths: "+str(data[i+index].text))
         elif i == 5:
             print("Total Recovered: "+str(data[i+index].text))
         elif i == 6:
